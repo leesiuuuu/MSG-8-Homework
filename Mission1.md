@@ -299,6 +299,6 @@ __double underscores__
 
 ##### 결과
 
-![Alt text](Desktop/leesiwoo/Test_image.png)
-![Alt text](Desktop/leesiwoo/Test_image.png "Test_image")
+![테스트 이미지](https://github.com/leesiuuuu/MSG-8-Homework/blob/main/Test_image.png?raw=true)
+![테스트 이미지](https://github.com/leesiuuuu/MSG-8-Homework/blob/main/Test_image.png?raw=true "테스트 이미지지롱")
 
