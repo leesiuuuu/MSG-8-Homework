@@ -66,7 +66,7 @@ H2는 문서 부제목
 3. 셋
 ```
 
-###### 결과
+##### 결과
 1. 하나
 2. 둘
 3. 셋
@@ -77,7 +77,7 @@ H2는 문서 부제목
 3. 둘
 2. 셋
 ```
-###### 결과
+##### 결과
 
 1. 하나
 3. 둘
@@ -100,7 +100,7 @@ H2는 문서 부제목
 
 ```
 
-###### 결과
+##### 결과
 
 * 빨강
     * 노랑
@@ -132,6 +132,8 @@ H2는 문서 부제목
 
 #### 4. 코드
 
+- 들여쓰기
+
 4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행알 만날때까지 변환이 계속된다.
 
 **사용예시**
@@ -145,7 +147,7 @@ End code block.
 
 ```
 
-###### 결과
+##### 결과
 
 This is a normal paragraph
 
@@ -161,7 +163,7 @@ This is a normal paragraph
 End code block.
 ```
 
-###### 결과
+##### 결과
 This is a normal paragraph
     This is a code block
 End code block.
@@ -186,7 +188,7 @@ public class BootSpringBootApplication {
 ```
 
 
-###### 결과
+##### 결과
 <pre><code>
 public class BootSpringBootApplication {
   public static void main(String[] args) {
@@ -196,7 +198,58 @@ public class BootSpringBootApplication {
 }
 </code></pre>
 
+2. 코드블럭코드("```")를 이용하는 방법
 
+```
+```
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+```
+```
+
+##### 결과
+```
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+```
+
+#### 5. 수평선
+
+```
+* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
+```
+
+위 줄은 모두 수평선을 만든다. *주로 페이지 나누기 용도*로 사용한다.
+
+##### 결과
+
+* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
+
+#### 6. 링크
+
+- 참조링크
 
 
 
