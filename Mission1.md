@@ -1,3 +1,5 @@
+# MarkDown이란?
+
 **MarkDown**문서는 텍스트 기반의 마크업 언어이다.
 2004년 존그루버에 의해 만들어졌으며 쉽게 쓰고 읽을수 있고, HTML로 변환할 수 있다.
 특수기호와 문자를 이용해 매우 간단한 구조의 문법을 사용하여 웹에서 보다 빠르게 컨텐츠를
@@ -119,7 +121,39 @@ H2는 문서 부제목
 
 #### 4. 코드
 
+4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행알 만날때까지 변환이 계속된다.
 
+**사용예시**
+
+```
+This is a normal paragraph
+
+    This is a code block
+    
+End code block.
+
+```
+
+###### 결과
+
+This is a normal paragraph
+
+    This is a code block
+    
+End code block.
+
+*한줄 띄어쓰기를 안하면 인식이 되지 않는 문제가 발생한다.*
+
+```
+This is a normal paragraph
+    This is a code block
+End code block.
+```
+
+###### 결과
+This is a normal paragraph
+    This is a code block
+End code block.
 
 
 
