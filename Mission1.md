@@ -38,7 +38,8 @@
 #### This is a H4
 ##### This is a H5
 ###### This is a H6
-(####### This is a H7 은 지원하지 않는다.)
+
+(#######(This is a H7) 은 지원하지 않는다.)
 
 H1은 큰제목
 
@@ -121,8 +122,9 @@ H2는 문서 부제목
   - 2단계
     + 3단계
       + 4단계
-
 ```
+
+##### 결과
 
 * 1단계
   - 2단계
@@ -171,7 +173,7 @@ End code block.
 
 - 코드블럭
 
-코드블럭은 2가지 방식을 사용할 수 있다.
+  코드블럭은 2가지 방식을 사용할 수 있다.
 1. `<pre><code>{code}</code></pre>`를 사용한다.
 
 ```
@@ -198,7 +200,8 @@ public class BootSpringBootApplication {
 }
 </code></pre>
 
-2. 코드블럭코드("```")를 이용하는 방법
+
+2. 코드블럭코드(**```**)를 이용하는 방법
 
 ```
 ```java
@@ -207,7 +210,6 @@ public class BootSpringBootApplication {
     System.out.println("Hello, Honeymon");
   }
 }
-
 ```
 
 
@@ -285,20 +287,64 @@ __double underscores__
 
 ##### 결과
 *single asterisks*
+
 _single underscores_
+
 **double asterisks**
+
 __double underscores__
+
 ~~cancelline~~
 
 
 #### 8. 이미지
 ```
-![Alt text](Desktop/leesiwoo/Test_image.png)
-![Alt text](Desktop/leesiwoo/Test_image.png "Test_image")
+![테스트 이미지](https://github.com/leesiuuuu/MSG-8-Homework/blob/main/Test_image.png?raw=true)
+![테스트 이미지](https://github.com/leesiuuuu/MSG-8-Homework/blob/main/Test_image.png?raw=true "테스트 이미지지롱")
 ```
 
 ##### 결과
 
 ![테스트 이미지](https://github.com/leesiuuuu/MSG-8-Homework/blob/main/Test_image.png?raw=true)
 ![테스트 이미지](https://github.com/leesiuuuu/MSG-8-Homework/blob/main/Test_image.png?raw=true "테스트 이미지지롱")
+
+**사이즈 조절 기능은 없기 때문에 `<img width="" height=""></img>`를 이용한다.**
+
+- 예시
+```
+<img src="https://github.com/leesiuuuu/MSG-8-Homework/blob/main/Test_image.png?raw=true" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="테스트 이미지지롱"></img><br/>
+
+<img src="https://github.com/leesiuuuu/MSG-8-Homework/blob/main/Test_image.png?raw=true" width="40%" height="30%" title="px(픽셀)크기 설정" alt="테스트 이미지지롱"></img>
+```
+
+##### 결과
+
+<img src="https://github.com/leesiuuuu/MSG-8-Homework/blob/main/Test_image.png?raw=true" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="테스트 이미지지롱"></img><br/>
+
+<img src="https://github.com/leesiuuuu/MSG-8-Homework/blob/main/Test_image.png?raw=true" width="20%" height="30%" title="px(픽셀)크기 설정" alt="테스트 이미지지롱"></img>
+
+
+#### 9. 줄바꿈
+
+**3칸 이상 띄어쓰기` `를 하면 줄이 바뀐다.
+
+```
+*줄 바꿈은 띄어쓰기 3칸을 해야 바뀐다   //띄어쓰기 3칸
+이렇게 말이죠.
+```
+
+##### 결과
+*줄 바꿈은 띄어쓰기 3칸을 해야 바뀐다   
+이렇게 말이죠.
+
+
+# 정리
+**마크다운**은 기본 문법만 알고 있으면 일반 텍스트 편집기에서도
+쉽게 작업이 가능한 마크업 언어이다.
+현재 다양한 도구, 필랫폼에서 지원하고 있기 때문에 더욱 손쉽게
+스타일적용된 문서를 작성할 수 있어서 널리 사용되고 있다.
+
+  > 마크다운 싸랑해요
+
+~~솔직히 마크다운 장단점과 문법을 정리하면서 약간 노션 작성할 때와 비슷하다는 느낌을 받았습니다.~~
 
