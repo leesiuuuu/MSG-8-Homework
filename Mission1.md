@@ -184,7 +184,6 @@ public class BootSpringBootApplication {
 ```
 
 ###### 결과
-
 <pre><code>
 public class BootSpringBootApplication {
   public static void main(String[] args) {
@@ -192,8 +191,7 @@ public class BootSpringBootApplication {
   }
 
 }
-</code><pre>
-
+</code></pre>
 
 h1 h1h h1h h1 
 
