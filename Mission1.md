@@ -273,4 +273,32 @@ public class BootSpringBootApplication {
 * 외부링크 : <https://example.com/>
 * 이메일링크 : <address@example.com>
 
+#### 7. 강조
+
+```
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~cancelline~~
+```
+
+##### 결과
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~cancelline~~
+
+
+#### 8. 이미지
+```
+![Alt text](Desktop/leesiwoo/Test_image.png)
+![Alt text](Desktop/leesiwoo/Test_image.png "Test_image")
+```
+
+##### 결과
+
+![Alt text](Desktop/leesiwoo/Test_image.png)
+![Alt text](Desktop/leesiwoo/Test_image.png "Test_image")
 
