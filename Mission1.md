@@ -114,7 +114,7 @@ H2는 문서 부제목
     - 노랑
         - 파랑
 
-**글머리 기호는 혼합 사용이 가능하다**
+**(글머리 기호는 혼합 사용이 가능하다)**
 
 ```
 * 1단계
@@ -201,12 +201,13 @@ public class BootSpringBootApplication {
 2. 코드블럭코드("```")를 이용하는 방법
 
 ```
-```
+```java
 public class BootSpringBootApplication {
   public static void main(String[] args) {
     System.out.println("Hello, Honeymon");
   }
 }
+
 ```
 ```
 
