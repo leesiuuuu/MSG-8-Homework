@@ -212,7 +212,7 @@ public class BootSpringBootApplication {
 
 
 ##### 결과
-```
+```java
 public class BootSpringBootApplication {
   public static void main(String[] args) {
     System.out.println("Hello, Honeymon");
@@ -252,6 +252,26 @@ public class BootSpringBootApplication {
 
 - 참조링크
 
+```
+  사용문법 : [Title](link)
+  적용예시 : [Google](https://google.com, "google link")
 
+```
+
+##### 결과
+[Google](https://google.com, "google link")
+
+- 자동연결
+
+  일반적인 URL 혹은 이메일 주소인 경우 적절한 형식으로 링크를 형성한다.
+
+  ```
+  * 외부링크 : <https://example.com/>
+  * 이메일링크 : <address@example.com>
+  ```
+
+  ##### 결과
+  * 외부링크 : <https://example.com/>
+  * 이메일링크 : <address@example.com>
 
 
