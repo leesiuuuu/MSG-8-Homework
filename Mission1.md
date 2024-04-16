@@ -181,14 +181,13 @@ public class BootSpringBootApplication {
   }
 
 }
-</code><pre>
+</code></pre>
 
 ```
 
 
 ###### 결과
 <pre><code>
-
 public class BootSpringBootApplication {
   public static void main(String[] args) {
     System.out.println("Hello, Honeymon");
