@@ -257,7 +257,6 @@ public class BootSpringBootApplication {
   적용예시 : [Google](https://google.com, "google link")
 
 ```
-
 ##### 결과
 [Google](https://google.com, "google link")
 
@@ -269,7 +268,6 @@ public class BootSpringBootApplication {
   * 외부링크 : <https://example.com/>
   * 이메일링크 : <address@example.com>
   ```
-
   ##### 결과
   * 외부링크 : <https://example.com/>
   * 이메일링크 : <address@example.com>
