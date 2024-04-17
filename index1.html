@@ -18,9 +18,15 @@
                 <label for="password">비밀번호 : <input type="password" id="password"></label>
             </li>
             <button id="login-form-submit">Log In</button>
+            <button id="new_login_id_n_psw" onclick="replacelink()">Sign Up</button>
             <div id="login-error-msg"></div>
         </fieldset>
     </form>
     <script src="script.js"></script>
+    <script>
+        function replacelink(){
+            location.replace("http://localhost/signup.html");
+        }
+    </script>
 </body>
 </html>
