@@ -1,4 +1,20 @@
-p {
-    color: red;
-  }
+
+@font-face { /* 폰트 추가 */
+  font-family: 'GmarketSans';
+  src: local('GmarketSans'), url('font/gmarketsansttfmedium.woff'), format('woff'),
+  url('font/GmarketSansTTFMedium.ttf') format('truetype');
+}
+
+form {
   
+  text-align: center;
+  font-family: 'GmarketSans';
+  }
+
+label{
+  font-size: 20px;
+  color: cornflowerblue;
+}
+
+
+
