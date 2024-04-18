@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'GmarketSans';
+  src: local('GmarketSans'), url('font/gmarketsansttfmedium.woff') format('woff'), url('font/GmarketSansTTFMedium.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'GmarketSans';
+  background-image: url('web/img/background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+label {
+  font-size: 20px;
+  color: cornflowerblue;
+  border-radius: 8%;
+}
+
+h1 {
+  font-size: 30px;
+  color: orchid;
+  text-align: center;
+}
+
+fieldset {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  max-width: 90%;
+  padding: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.img {
+  background-attachment: fixed;
+  height: 100vh;
+  background-image: url('web/img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+}
+
+.login-main .login {
+  left: 20%;
+  transform: translateX(-20%);
+  opacity: 0;
+  transition: all 0.6s ease-out;
+  z-index: 0;
+}
+
+.login-main:hover .login {
+  opacity: 1;
+  transform: translateX(0%);
+}
